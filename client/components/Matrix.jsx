@@ -1,10 +1,13 @@
-import React from 'react'
-import Movie from './Movie'
-
+import React from "react";
+import Movie from "./Movie";
 
 function Matrix() {
-    return <>
-        {/* MatrixMovies => MatrixMovies.map(movie => <Movie movie={ } />) */}    </>
+  return (
+    <div className='page-matrix'>
+      <h1>Welcome to the Matrix</h1>
+      {/* MatrixMovies => MatrixMovies.map(movie => <Movie movie={ } />) */}{" "}
+    </div>
+  );
 }
 
-export default Matrix
+export default Matrix;

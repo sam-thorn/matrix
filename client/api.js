@@ -4,7 +4,7 @@ const movieUrl = 'https://api.themoviedb.org/3/movie/550?api_key=21404fdcc872300
 
 export function getMovies () {
   return request
-    .get('https://api.themoviedb.org/3/movie/550?api_key=21404fdcc8723007e32347fcedff9bb4')
+    .get(movieUrl)
     .then(response => {
       return response.body
     })

@@ -12,9 +12,11 @@ function Bustblocker () {
     <div className='page-bustblocker'>
       <h1>Bustblocker</h1>
       {/* AllMovies => AllMovies.map(movie => <Movie movie={ } />) */}
-      {movies.map(movie => <p>{movie.title} {movie.release_date} {movie.vote_average} {movie.vote_count}</p>)}
+      {movies.map(movie => <Movie movieData={movie}/>)}
     </div>
   )
 }
+
+{/* <p>{movie.title} {movie.release_date} {movie.vote_average} {movie.vote_count}</p> */}
 
 export default Bustblocker

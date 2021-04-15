@@ -3,10 +3,10 @@ import Movie from "./Movie";
 
 function Matrix() {
   return (
-    <>
-      <h1>Matrix</h1>
+    <div className='page-matrix'>
+      <h1>Welcome to the Matrix</h1>
       {/* MatrixMovies => MatrixMovies.map(movie => <Movie movie={ } />) */}{" "}
-    </>
+    </div>
   );
 }
 

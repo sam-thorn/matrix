@@ -3,10 +3,10 @@ import Movie from "./Movie";
 
 function Bustblocker() {
   return (
-    <>
+    <div className='page-bustblocker'>
       <h1>Bustblocker</h1>
       {/* AllMovies => AllMovies.map(movie => <Movie movie={ } />) */}
-    </>
+    </div>
   );
 }
 

@@ -1,10 +1,13 @@
-import React from 'react'
-import Movie from './Movie'
+import React from "react";
+import Movie from "./Movie";
 
 function Bustblocker() {
-    return <>
-        {/* AllMovies => AllMovies.map(movie => <Movie movie={ } />) */}
+  return (
+    <>
+      <h1>Bustblocker</h1>
+      {/* AllMovies => AllMovies.map(movie => <Movie movie={ } />) */}
     </>
+  );
 }
 
-export default Bustblocker
+export default Bustblocker;

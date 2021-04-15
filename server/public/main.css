@@ -1,3 +1,7 @@
+body {
+  margin: 0;
+}
+
 .widget-details .visible {
   display: block;
 }
@@ -6,6 +10,18 @@
   display: none;
 }
 
-body {
-  background-image: url("/images/morpheus.jpg");
+.bg-image {
+  background: url("/images/morpheus.jpg") no-repeat center center fixed;
+  background-size: cover;
+}
+
+.row {
+  display: flex;
+  min-width: 100vw;
+  min-height: 100vh;
+}
+
+.col-left,
+.col-right {
+  width: 50%;
 }

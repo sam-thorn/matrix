@@ -1,8 +1,11 @@
-import React from 'react'
+import React from "react";
 
 function Home() {
-    return <>
+  return (
+    <>
+      <h1>Matrix!</h1>
     </>
+  );
 }
 
-export default Home
+export default Home;

@@ -1,8 +1,9 @@
-import React from "react";
-import { render } from "react-dom";
-import { HashRouter as Router } from "react-router-dom";
 
-import App from "./components/App";
+import React from 'react'
+import { render } from 'react-dom'
+import { HashRouter as Router } from 'react-router-dom'
+
+import App from './components/App'
 
 document.addEventListener("DOMContentLoaded", () => {
   render(
@@ -12,3 +13,4 @@ document.addEventListener("DOMContentLoaded", () => {
     document.getElementById("app")
   );
 });
+

@@ -1,9 +1,18 @@
-import React from "react";
-import Movie from "./Movie";
+import React, { useState, useEffect } from 'react'
+// import { request } from '../../server/server'
+import Movie from './Movie'
+import request from 'superagent'
 
-function Matrix() {
+function Matrix () {
+  const [movies, setMovies] = useState([])
+  useEffect(() => {
+    request.get('https://api.themoviedb.org/3/collection/2344?api_key=21404fdcc8723007e32347fcedff9bb4')
+      .then(response => setMovies(response.body))
+  }, [])
+
   return (
     <div className='page-matrix'>
+
       <h1 className="title">Welcome to the Matrix</h1>
         <div className="container">
           <div className="poster-1"></div>
@@ -15,8 +24,9 @@ function Matrix() {
         </div>
           
       {/* MatrixMovies => MatrixMovies.map(movie => <Movie movie={ } />) */}{" "}
+
     </div>
-  );
+  )
 }
 
-export default Matrix;
+export default Matrix

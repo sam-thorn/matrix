@@ -48,7 +48,17 @@ body {
   );
   min-width: 100vw;
   min-height: 100vh;
+  
 }
+
+.container {
+  display: flex;
+}
+
+.container-2 {
+  display: flex;
+}
+
 .page-bustblocker {
   background: rgb(28, 28, 28);
   background: linear-gradient(
@@ -60,6 +70,13 @@ body {
   min-height: 100vh;
 }
 
+.title {
+  margin: 0;
+  text-align: center;
+  padding: 30px 10px;
+  color: white;
+}
+
 .quote {
   color: white;
   position: fixed;
@@ -69,9 +86,33 @@ body {
   font-size: 20px;
 }
 
-h1 {
-  margin: 0;
-  text-align: center;
-  padding: 30px 10px;
-  color: white;
+.poster-1 {
+  margin: 20px 110px 80px;
+  background: url("/images/matrix.jpg");
+  background-size: cover;
+  width: 250px;
+  height: 330px;
 }
+.poster-2 {
+  margin: 20px 110px 80px;
+  background: url("/images/die-hard.jpg");
+  background-size: cover;
+  width: 250px;
+  height: 330px;
+}
+.poster-3 {
+  margin: 20px 110px 80px;
+  background: url("/images/speed.jpg");
+  background-size: cover;
+  width: 250px;
+  height: 330px;
+}
+.poster-4 {
+  margin: 20px 110px 80px;
+  background: url("/images/face-off.jpg");
+  background-size: cover;
+  width: 250px;
+  height: 330px;
+}
+
+

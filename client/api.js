@@ -1,9 +1,12 @@
 import request from 'superagent'
 
-const widgetUrl = '/api/v1/widgets/'
+// EDIT THIS LINE
+const movieUrl = '/api/v1/widgets/'
 
-export function getWidgets () {
+export function getMovies () {
   return request
-    .get(widgetUrl)
-    .then(response => response.body)
+    .get(movieUrl)
+    .then(response => {
+      return response.body
+    })
 }

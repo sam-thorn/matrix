@@ -4,9 +4,9 @@ const router = express.Router()
 const db = require('../db/db')
 
 router.get('/', (req, res) => {
-  db.getWidgets()
-    .then(widgets => {
-      res.json(widgets)
+  db.getMovies()
+    .then(movies => {
+      res.json(movies)
       return null
     })
     .catch(err => {

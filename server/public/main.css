@@ -59,6 +59,11 @@ body {
 
 .details {
   margin-left: 120px;
+  position: relative;
+}
+
+.props {
+  color: rgb(155, 146, 146);
 }
 
 .page-bustblocker {

@@ -129,3 +129,13 @@ a {
   display: block;
 }
 
+.thumbs {
+  width: 50px;
+}
+
+.button {
+  background-color: transparent;
+  box-shadow: transparent;
+  text-shadow: transparent;
+  display:inline-block;
+}

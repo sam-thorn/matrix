@@ -15,6 +15,17 @@ body {
   margin: 0;
 }
 
+.logo{
+  margin-top: 40px;
+  
+  width: 300px;
+  height: 175px;
+}
+
+.logo-div {
+  justify-content: center;
+}
+
 .widget-details .visible {
   display: block;
 }
@@ -60,7 +71,7 @@ body {
 .details {
   margin-left: 120px;
   position: relative;
-  margin-top: -200px
+  
 }
 
 .props {
@@ -95,7 +106,7 @@ body {
 }
 
 .poster {
-  margin: 40px 100px;
+  margin: 40px 100px 0;
   background-size: cover;
   width: 250px;
   height: 370px;

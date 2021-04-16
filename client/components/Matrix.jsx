@@ -12,8 +12,19 @@ function Matrix() {
   
   return (
     <div className='page-matrix'>
-      <h1>Welcome to the Matrix</h1>
-      {movies.map(movie => <Movie movieData={movie} />)}
+
+      <h1 className="title">Welcome to the Matrix</h1>
+        <div className="container">
+          <div className="poster-1"></div>
+          <div className="poster-2"></div>
+        </div>
+        <div className="container-2">
+          <div className="poster-3"></div>
+          <div className="poster-4"></div>
+        </div>
+          
+      {/* MatrixMovies => MatrixMovies.map(movie => <Movie movie={ } />) */}{" "}
+
     </div>
   );
 }

@@ -23,7 +23,9 @@ body {
 }
 
 .logo-div {
+  display: flex;
   justify-content: center;
+  
 }
 
 .widget-details .visible {

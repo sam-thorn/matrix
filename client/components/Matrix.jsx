@@ -12,10 +12,9 @@ function Matrix() {
 
   return (
     <div className='page-matrix'>
-
       <h1 className="title">Welcome to the Matrix</h1>
       <container className="container" >
-      {movies.map(movie => <Movie movieData={movie} />)}
+        {movies.map(movie => <Movie movieData={movie} />)}
       </container>
 
     </div>

@@ -9,6 +9,9 @@ function Movie(props) {
             <p><span className="props">Release Date:</span> {props.movieData.release_date}</p>
             <p><span className="props">Vote Average:</span> {props.movieData.vote_average}</p>
             <p><span className="props">Vote Count:</span> {props.movieData.vote_count}</p>
+            <p><button className="button"><img className="thumbs" src='images/like.png' /></button></p>
+        <p><button className="button"><img className="thumbs" src='images/dislike.png' /></button></p>
+
         </div>
     </div>
     )}

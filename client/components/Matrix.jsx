@@ -12,7 +12,7 @@ function Matrix () {
 
   return (
     <div className='page-matrix'>
-      <h1 className="title">Welcome to the Matrix</h1>
+      <a href="/"><h1 className="title">Welcome to the Matrix</h1></a>
       <container className="container" >
         {movies.map(movie => <Movie movieData={movie} />)}
       </container>

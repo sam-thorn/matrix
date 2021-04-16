@@ -12,7 +12,7 @@ function Bustblocker() {
 
   return (
     <div className='page-bustblocker'>
-      <div className="logo-div"><img className='logo' src="/images/Bustblocker_logo.png" alt=""/></div>
+      <div className="logo-div"> <a href="/"> <img className='logo' src="/images/Bustblocker_logo.png" alt=""/></a></div>
       <container className="container" >
         {movies.map(movie => <Movie movieData={movie} />)}
       </container>

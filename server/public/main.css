@@ -29,7 +29,9 @@ body {
 }
 
 .logo-div {
+  display: flex;
   justify-content: center;
+  
 }
 
 .widget-details .visible {
@@ -76,6 +78,9 @@ body {
 .details {
   margin-left: 120px;
   position: relative;
+  display: none;
+  margin-top: -380px;
+  
 }
 
 .props {
@@ -98,8 +103,17 @@ body {
   text-align: center;
   padding: 30px 10px;
   color: white;
+<<<<<<< HEAD
   font-size: 50px;
   font-family: Antimatrix-BWBVw;
+||||||| a87962c
+=======
+  
+}
+
+a {
+  text-decoration: none;
+>>>>>>> e8c3e8bdcff6df897cee9e980b8ca2ec008c8cdd
 }
 
 .quote {
@@ -112,8 +126,32 @@ body {
 }
 
 .poster {
-  margin: 40px 100px 0;
+  margin: 40px 100px;
   background-size: cover;
   width: 250px;
   height: 370px;
 }
+<<<<<<< HEAD
+||||||| a87962c
+
+=======
+
+.poster:hover {
+  opacity: 20%;
+}
+
+.poster:hover + .details {
+  display: block;
+}
+
+.thumbs {
+  width: 50px;
+}
+
+.button {
+  background-color: transparent;
+  box-shadow: transparent;
+  text-shadow: transparent;
+  display:inline-block;
+}
+>>>>>>> e8c3e8bdcff6df897cee9e980b8ca2ec008c8cdd

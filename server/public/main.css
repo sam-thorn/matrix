@@ -54,6 +54,16 @@ body {
 .container {
   display: flex; 
   flex-wrap: wrap;
+  color: white;
+}
+
+.details {
+  margin-left: 120px;
+  position: relative;
+}
+
+.props {
+  color: rgb(155, 146, 146);
 }
 
 .page-bustblocker {
@@ -80,13 +90,14 @@ body {
   bottom: 40px;
   width: 100%;
   text-align: center;
-  font-size: 20px;
+  font-size: 26px;
 }
 
 .poster {
-  margin: 20px 110px 80px;
+  margin: 40px 110px;
   background-size: cover;
   width: 250px;
   height: 370px;
+  
 }
 

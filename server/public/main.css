@@ -48,7 +48,14 @@ body {
   );
   min-width: 100vw;
   min-height: 100vh;
+  
 }
+
+.container {
+  display: flex; 
+  flex-wrap: wrap;
+}
+
 .page-bustblocker {
   background: rgb(28, 28, 28);
   background: linear-gradient(
@@ -60,6 +67,13 @@ body {
   min-height: 100vh;
 }
 
+.title {
+  margin: 0;
+  text-align: center;
+  padding: 30px 10px;
+  color: white;
+}
+
 .quote {
   color: white;
   position: fixed;
@@ -69,9 +83,10 @@ body {
   font-size: 20px;
 }
 
-h1 {
-  margin: 0;
-  text-align: center;
-  padding: 30px 10px;
-  color: white;
+.poster {
+  margin: 20px 110px 80px;
+  background-size: cover;
+  width: 250px;
+  height: 370px;
 }
+

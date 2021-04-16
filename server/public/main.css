@@ -60,10 +60,11 @@ body {
 .details {
   margin-left: 120px;
   position: relative;
+  margin-top: -200px
 }
 
 .props {
-  color: rgb(155, 146, 146);
+  color: rgb(214, 210, 210);
 }
 
 .page-bustblocker {
@@ -94,7 +95,7 @@ body {
 }
 
 .poster {
-  margin: 40px 110px;
+  margin: 40px 100px;
   background-size: cover;
   width: 250px;
   height: 370px;

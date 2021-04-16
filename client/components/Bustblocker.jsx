@@ -13,8 +13,9 @@ function Bustblocker() {
   return (
     <div className='page-bustblocker'>
       <h1 className="title">Bustblocker</h1>
-      {/* AllMovies => AllMovies.map(movie => <Movie movie={ } />) */}
-      {movies.map(movie => <Movie movieData={movie} />)}
+      <container className="container" >
+        {movies.map(movie => <Movie movieData={movie} />)}
+      </container>
     </div>
   )
 }

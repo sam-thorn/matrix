@@ -1,3 +1,8 @@
+@font-face {
+  font-family: "Antimatrix-BWBVw";
+  src: url("/fonts/Antimatrix-BWBVw.ttf") format("truetype");
+}
+
 html {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -13,11 +18,12 @@ html {
 
 body {
   margin: 0;
+  font-family: Helvetica, sans-serif;
 }
 
-.logo{
+.logo {
   margin-top: 40px;
-  
+
   width: 300px;
   height: 175px;
 }
@@ -59,11 +65,10 @@ body {
   );
   min-width: 100vw;
   min-height: 100vh;
-  
 }
 
 .container {
-  display: flex; 
+  display: flex;
   flex-wrap: wrap;
   color: white;
 }
@@ -71,7 +76,6 @@ body {
 .details {
   margin-left: 120px;
   position: relative;
-  
 }
 
 .props {
@@ -94,6 +98,8 @@ body {
   text-align: center;
   padding: 30px 10px;
   color: white;
+  font-size: 50px;
+  font-family: Antimatrix-BWBVw;
 }
 
 .quote {
@@ -110,6 +116,4 @@ body {
   background-size: cover;
   width: 250px;
   height: 370px;
-  
 }
-

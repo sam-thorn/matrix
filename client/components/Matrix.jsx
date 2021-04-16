@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react'
 import request from 'superagent'
 import Movie from './Movie'
 
-function Matrix() {
+function Matrix () {
   const [movies, setMovies] = useState([])
 
   useEffect(() => {
@@ -18,7 +18,7 @@ function Matrix() {
       </container>
 
     </div>
-  );
+  )
 }
 
-export default Matrix;
+export default Matrix

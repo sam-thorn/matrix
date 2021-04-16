@@ -14,4 +14,15 @@ router.get('/', (req, res) => {
     })
 })
 
+router.get('/synopsis/:id', (req, res) => {
+  db.getSynopsis()
+    .then(synopsis => {
+      res.json(synopsis)
+      return null
+    })
+    .catch(err => {
+      res.status(500).send(err.message)
+    })
+})
+
 module.exports = router

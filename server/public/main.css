@@ -73,6 +73,8 @@ body {
 .details {
   margin-left: 120px;
   position: relative;
+  display: none;
+  margin-top: -200px;
   
 }
 
@@ -96,6 +98,11 @@ body {
   text-align: center;
   padding: 30px 10px;
   color: white;
+  
+}
+
+a {
+  text-decoration: none;
 }
 
 .quote {
@@ -108,10 +115,17 @@ body {
 }
 
 .poster {
-  margin: 40px 100px 0;
+  margin: 40px 100px;
   background-size: cover;
   width: 250px;
   height: 370px;
-  
+}
+
+.poster:hover {
+  opacity: 20%;
+}
+
+.poster:hover + .details {
+  display: block;
 }
 

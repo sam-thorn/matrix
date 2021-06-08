@@ -6,7 +6,8 @@
 
 This is a fun movie aggregator app with a decidedly Matrix theme. Please select the blue or the red pill from Morpheus to enter.
 
-Our nominated team name was 'The Matrix' :wink:
+This was created as a Friday Project during my time at Enspiral Dev Academy.
+Our nominated project team name was 'The Matrix' :wink:
 
 To run the project please do the following:
 - clone the project
